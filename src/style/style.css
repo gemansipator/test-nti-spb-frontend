@@ -7,5 +7,11 @@
 .wrapper {
   margin: 0 auto;
   max-width: 1920px;
-  background-color: darkorange;
+}
+.wrapper-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 27px 0 22px 0;
+  max-width: 1400px;
+  background-color: darkorange; //для видимости
 }
