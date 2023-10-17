@@ -6,11 +6,12 @@
   scroll-behavior: smooth;
 
 
+
 }
 .body{
-  background-color: beige;
   max-width: 1920px;
   height: 5682px;
+
 }
 .wrapper {
   margin: 0 auto;
@@ -61,4 +62,10 @@
   /*.+1*/
   width: 285px;
   align-items: center;
+}
+.header-sprite_elem {
+  height: 55px;
+}
+.header-sprite_elem:hover {
+  cursor: pointer;
 }
