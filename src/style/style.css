@@ -79,3 +79,20 @@
 .header-sprite_icon:hover {
   cursor: pointer;
 }
+.header-search {
+  padding-top: 2px;
+}
+.header-sprite_icon:hover .down_menu {
+  display: block;
+  overflow: visible;
+}
+.down_menu {
+  display: none;
+  top: 56px;
+  position: absolute;
+  z-index: 10;
+  width: 405px;
+  border-radius: 20px;
+  right: 63px;
+  filter: drop-shadow(0px 14px 75px rgba(0, 0, 0, 0.13)) drop-shadow(0px 1.75302px 9.39116px rgba(0, 0, 0, 0.065));
+}
